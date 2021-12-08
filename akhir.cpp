@@ -66,28 +66,28 @@ int main()
 				 cout <<setfill('-') << setw(70) << "-" << endl;
 			 }
 	else if(menu == 2){
-		cout<<"\nDaftar Harga"<<endl;
-		cout<<setfill('-')<<setw(50)<<"-"<<endl;
-		cout<<setiosflags(ios::left)<<setfill(' ')<<setw(25)<<"Nama Pakaian"<<"| "
-			<<setiosflags(ios::left)<<setfill(' ')<<setw(22)<<"Harga Pakaian"<<"|"<<endl;
-		cout<<setfill('-')<<setw(50)<<"-"<<endl;
+		cout << "\nDaftar Harga" << endl;
+		cout << setfill('-') << setw(50) << "-" << endl;
+		cout << setiosflags(ios::left) <<setfill(' ') << setw(25) << "Nama Pakaian" << "| "
+			<<setiosflags(ios::left) << setfill(' ') << setw(22) << "Harga Pakaian" << "|" << endl;
+		cout << setfill('-') << setw(50) <<"-" << endl;
 		
 		for(int a = 0;a<data;a++){
 				cout << setiosflags(ios::left) << setfill(' ') << setw(24) << pakaian[a] << " | "
 					 << setiosflags(ios::left) << "Rp" << setw(19) << harga[a] << " | " << endl;
 				 }
-				 cout <<setfill('-') << setw(50) << "-" << endl;
+				 cout << setfill('-') << setw(50) << "-" << endl;
 			 }
 	
 	else if (menu == 3){
-		cout<<"Transaksi"<<endl;
+		cout << "Transaksi" << endl;
 	
-		cout<<"\n1. Long Sleeve\t Rp350000 "
-			<<"\n2. Hoodie\t Rp500000"
-			<<"\n3. Sports Wear\t Rp600000"
-			<<"\n4. Casual Shirt\t Rp250000 "
-			<<"\n\nPilih produk yang ingin dibeli : ";
-		cin>>produk;
+		cout << "\n1. Long Sleeve\t Rp350000 "
+			<< "\n2. Hoodie\t Rp500000"
+			<< "\n3. Sports Wear\t Rp600000"
+			<< "\n4. Casual Shirt\t Rp250000 "
+			<< "\n\nPilih produk yang ingin dibeli : ";
+		cin >> produk;
 	
 		switch (produk)
 		{
